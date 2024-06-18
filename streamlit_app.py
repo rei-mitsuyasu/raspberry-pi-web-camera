@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# 鶴田ばか
+# これ使えばラズパイで取得したデータを誰でもアクセスできるからなんでもできる
 
 # Welcome to Streamlit!
 
