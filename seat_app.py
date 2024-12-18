@@ -5,6 +5,7 @@ import datetime
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
+import random
 
 def main():
     st.set_page_config(page_title="席決めアプリ", page_icon="⚡")
@@ -20,6 +21,7 @@ def main():
             for i in range(num_people):
                 name = st.text_input(f"名前 {i+1}")
                 names.append(name)
+            random.shuffle(names)
 
             # 「名簿作成」ボタン
             if st.button("名簿を作成"):
