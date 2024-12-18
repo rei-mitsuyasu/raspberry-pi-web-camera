@@ -4,9 +4,7 @@ import streamlit as st
 import datetime
 import numpy as np
 import pandas as pd
-from tensorflow.keras.models import load_model
 from datetime import datetime, timedelta
-import plotly.graph_objects as go
 
 def main():
     st.set_page_config(page_title="席決めアプリ", page_icon="⚡")
